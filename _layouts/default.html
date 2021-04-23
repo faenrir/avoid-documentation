@@ -180,5 +180,24 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js"></script>
+  <script>
+    var config = {
+      startOnLoad: true,
+      theme: 'dark',
+      flowchart:{
+        useMaxWidth: false,
+        htmlLabels: true
+      }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  </script>
+  <style media="screen">
+    code.language-mermaid {
+      background-color: transparent;
+      border: none;
+    }
+  </style>
 </body>
 </html>

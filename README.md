@@ -6,3 +6,4 @@ based on the [just-the-docs jekyll theme](https://pmarsceill.github.io/just-the-
 
 - dracula color scheme
 - zoomable images with rounded corners
+- mermaid markdown support
